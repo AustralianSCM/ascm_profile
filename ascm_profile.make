@@ -40,10 +40,6 @@ projects[civicrm_starterkit][type] = "module"
 projects[civicrm_starterkit][download][type] = "git"
 projects[civicrm_starterkit][download][url] = "http://git.drupal.org/project/civicrm_starterkit.git"
 
-projects[features][subdir] = "contrib"
-projects[features][type] = "module"
-projects[features][version] = "1.0"
-
 projects[profiler][subdir] = "contrib"
 projects[profiler][type] = "module"
 projects[profiler][version] = "2.0-beta1"
@@ -57,10 +53,6 @@ projects[omega][version] = "3.1"
 
 ; Libraries
 ; ---------
-
-libraries[ckeditor][type] = "libraries"
-libraries[ckeditor][download][type] = "file"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_full.tar.gz"
 
 libraries[profiler][type] = "libraries"
 libraries[profiler][download][type] = "get"
