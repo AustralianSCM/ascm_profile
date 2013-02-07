@@ -40,9 +40,42 @@ projects[civicrm_starterkit][type] = "module"
 projects[civicrm_starterkit][download][type] = "git"
 projects[civicrm_starterkit][download][url] = "http://git.drupal.org/project/civicrm_starterkit.git"
 
+projects[ctools][subdir] = "contrib"
+projects[ctools][type] = "module"
+projects[ctools][version] = "1.2"
+
+projects[date][subdir] = "contrib"
+projects[date][type] = "module"
+projects[date][version] = "2.6"
+
+projects[devel][subdir] = "contrib"
+projects[devel][type] = "module"
+projects[devel][version] = "1.3"
+
+projects[diff][subdir] = "contrib"
+projects[diff][type] = "module"
+projects[diff][version] = "3.2"
+
+projects[features][subdir] = "contrib"
+projects[features][type] = "module"
+projects[features][version] = "1.0"
+
+projects[module_filter][subdir] = "contrib"
+projects[module_filter][type] = "module"
+projects[module_filter][version] = "1.7"
+
 projects[profiler][subdir] = "contrib"
 projects[profiler][type] = "module"
 projects[profiler][version] = "2.0-beta1"
+
+projects[token][subdir] = "contrib"
+projects[token][type] = "module"
+projects[token][version] = "1.4"
+
+projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][type] = "module"
+projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][patch][] = "http://drupal.org/files/wysiwyg-support_v4_ckeditor-1853550-73.patch"
 
 ; Themes
 ; --------
@@ -53,6 +86,10 @@ projects[omega][version] = "3.1"
 
 ; Libraries
 ; ---------
+
+libraries[ckeditor][type] = "libraries"
+libraries[ckeditor][download][type] = "file"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_full.tar.gz"
 
 libraries[profiler][type] = "libraries"
 libraries[profiler][download][type] = "get"
