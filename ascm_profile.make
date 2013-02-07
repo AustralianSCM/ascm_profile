@@ -24,6 +24,15 @@ api = 2
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
 projects[drupal][version] = 7
 
+; Base profile
+; ------------
+
+base = civicrm_starterkit
+
+projects[civicrm_starterkit][type] = "profile"
+projects[civicrm_starterkit][download][type] = "git"
+projects[civicrm_starterkit][download][url] = "http://git.drupal.org/project/civicrm_starterkit.git"
+
 ; Modules
 ; --------
 
@@ -34,11 +43,6 @@ projects[admin_menu][version] = "3.0-rc4"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][type] = "module"
 projects[backup_migrate][version] = "2.4"
-
-projects[civicrm_starterkit][subdir] = "contrib"
-projects[civicrm_starterkit][type] = "module"
-projects[civicrm_starterkit][download][type] = "git"
-projects[civicrm_starterkit][download][url] = "http://git.drupal.org/project/civicrm_starterkit.git"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][type] = "module"
