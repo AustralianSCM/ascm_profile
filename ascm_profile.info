@@ -1,0 +1,16 @@
+name = ASCM profile
+description = ASCM installation profile.
+version = 0.1
+core = 7.x
+
+; Modules
+dependencies[] = admin_menu
+dependencies[] = ascm_civi
+dependencies[] = ascm_core
+dependencies[] = backup_migrate
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = module_filter
+dependencies[] = token
