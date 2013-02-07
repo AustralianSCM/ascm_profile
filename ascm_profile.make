@@ -22,7 +22,10 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7
+projects[drupal][type] = "core"
+projects[drupal][version] = "7.19"
+projects[drupal][patch][] = "http://drupal.org/files/1356276-base-profile-d7-39-do-not-test.patch"
+
 
 ; Base profile
 ; ------------
