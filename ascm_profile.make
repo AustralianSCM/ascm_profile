@@ -35,11 +35,6 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][type] = "module"
 projects[backup_migrate][version] = "2.4"
 
-projects[civicrm_starterkit][subdir] = "contrib"
-projects[civicrm_starterkit][type] = "module"
-projects[civicrm_starterkit][download][type] = "git"
-projects[civicrm_starterkit][download][url] = "http://git.drupal.org/project/civicrm_starterkit.git"
-
 projects[ctools][subdir] = "contrib"
 projects[ctools][type] = "module"
 projects[ctools][version] = "1.2"

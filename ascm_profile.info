@@ -5,10 +5,10 @@ core = 7.x
 
 ; Modules
 dependencies[] = admin_menu
-dependencies[] = ascm_civi
 dependencies[] = ascm_core
 dependencies[] = backup_migrate
 dependencies[] = ctools
+dependencies[] = dblog
 dependencies[] = devel
 dependencies[] = diff
 dependencies[] = features
