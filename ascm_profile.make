@@ -55,6 +55,10 @@ projects[features][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][version] = "1.0"
 
+projects[mandrill][subdir] = "contrib"
+projects[mandrill][type] = "module"
+projects[mandrill][version] = "1.2"
+
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][type] = "module"
 projects[module_filter][version] = "1.7"

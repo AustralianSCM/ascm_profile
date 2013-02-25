@@ -12,6 +12,7 @@ dependencies[] = dblog
 dependencies[] = devel
 dependencies[] = diff
 dependencies[] = features
+dependencies[] = mandrill
 dependencies[] = module_filter
 dependencies[] = token
 
