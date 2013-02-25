@@ -55,10 +55,6 @@ projects[features][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][version] = "1.0"
 
-projects[mandrill][subdir] = "contrib"
-projects[mandrill][type] = "module"
-projects[mandrill][version] = "1.2"
-
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][type] = "module"
 projects[module_filter][version] = "1.7"
@@ -66,6 +62,10 @@ projects[module_filter][version] = "1.7"
 projects[profiler][subdir] = "contrib"
 projects[profiler][type] = "module"
 projects[profiler][version] = "2.0-beta1"
+
+projects[smtp][subdir] = "contrib"
+projects[smtp][type] = "module"
+projects[smtp][version] = "1.0"
 
 projects[token][subdir] = "contrib"
 projects[token][type] = "module"
