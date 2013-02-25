@@ -61,3 +61,10 @@ features[user_permission][] = view all notes
 features[user_permission][] = view event info
 features[user_permission][] = view event participants
 features[user_permission][] = view public CiviMail content
+
+
+; Information added by drush on 2013-02-25
+version = "unknown"
+project = "ascm_profile"
+datestamp = "1361769336"
+

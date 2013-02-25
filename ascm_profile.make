@@ -65,7 +65,7 @@ projects[profiler][version] = "2.0-beta1"
 
 projects[token][subdir] = "contrib"
 projects[token][type] = "module"
-projects[token][version] = "1.4"
+projects[token][version] = "1.5"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][type] = "module"

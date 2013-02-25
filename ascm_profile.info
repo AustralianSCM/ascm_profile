@@ -14,3 +14,10 @@ dependencies[] = diff
 dependencies[] = features
 dependencies[] = module_filter
 dependencies[] = token
+
+
+; Information added by drush on 2013-02-25
+version = "unknown"
+project = "ascm_profile"
+datestamp = "1361769336"
+
