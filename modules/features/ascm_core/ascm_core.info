@@ -8,12 +8,8 @@ dependencies[] = admin_menu
 dependencies[] = backup_migrate
 dependencies[] = block
 dependencies[] = dashboard
-dependencies[] = features
+dependencies[] = mandrill
+dependencies[] = module_filter
+dependencies[] = token
 features[features_api][] = api:1
-
-
-; Information added by drush on 2013-02-25
-version = "unknown"
-project = "ascm_profile"
-datestamp = "1361769336"
 
