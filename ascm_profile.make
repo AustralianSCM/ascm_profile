@@ -91,9 +91,9 @@ projects[wysiwyg][patch][] = "http://drupal.org/files/wysiwyg-support_v4_ckedito
 ; Themes
 ; --------
 
-projects[omega][subdir] = "contrib"
-projects[omega][type] = "theme"
-projects[omega][version] = "3.1"
+projects[adaptivetheme][subdir] = "contrib"
+projects[adaptivetheme][type] = "theme"
+projects[adaptivetheme][version] = "3.1"
 
 ; Libraries
 ; ---------
